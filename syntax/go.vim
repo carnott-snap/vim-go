@@ -117,7 +117,7 @@ if go#config#HighlightFormatStrings()
         \@<=%[-#0 +]*\
         \%(\%(\%(\[\d\+\]\)\=\*\)\|\d\+\)\=\
         \%(\.\%(\%(\%(\[\d\+\]\)\=\*\)\|\d\+\)\=\)\=\
-        \%(\[\d\+\]\)\=[vTtbcdoqxXUeEfFgGsp]/ contained containedin=goString,goRawString
+        \%(\[\d\+\]\)\=[wvTtbcdoqxXUeEfFgGsp]/ contained containedin=goString,goRawString
   hi def link     goFormatSpecifier   goSpecialString
 endif
 
